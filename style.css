@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+header {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.semi-heading{
+    text-align: center;
+    color: whitesmoke;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-heading {
+    text-align: center;
+}
+.form-group-inline {
+    display: flex;
+    justify-content: space-between;
+}
+.form-group-inline input {
+    width: 45%;
+}
+#gender {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1.6px solid black;
+    width: 100%;
+}
+
+input {
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1.6px solid black;
+    width: 95%;
+}
+button {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    background: #e73c7e;
+    color: white;
+}
+
+#gender:hover {
+    border-color: #23d5ab;
+}
+input:hover {
+    border-color: #23d5ab;
+}
+button:hover {
+    background-color: #23d5ab;
+    border-color: #23d5ab;
+}
+.sub-heading {
+    margin: 0%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.actions button {
+    margin: 5px;
+    padding: 5px;
+}
