@@ -1,3 +1,5 @@
+
+/*  General Page Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -8,6 +10,7 @@ body {
     height: 100vh;
 }
 
+/*  Background Gradient Animation */
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -20,18 +23,19 @@ body {
     }
 }
 
-
+/* Header Styling */
 header {
     text-align: center;
     color: whitesmoke;
     margin-bottom: 20px;
 }
-
+/*  Section Heading */
 .semi-heading{
     text-align: center;
     color: whitesmoke;
 }
 
+/*  Form Container */
 form {
     display: flex;
     flex-direction: column;
@@ -42,6 +46,7 @@ form {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+/*  Form Headings */
 .form-heading {
     text-align: center;
 }
@@ -52,6 +57,8 @@ form {
 .form-group-inline input {
     width: 45%;
 }
+
+/*  Gender Selection Styling */
 #gender {
     margin: 10px 0;
     padding: 10px;
@@ -61,6 +68,7 @@ form {
     width: 100%;
 }
 
+/*  Input Fields Styling */
 input {
     display: flex;
     margin: 10px 0;
@@ -70,6 +78,8 @@ input {
     border: 1.6px solid black;
     width: 95%;
 }
+
+/*  Button Styling */
 button {
     text-align: center;
     font-size: 16px;
@@ -81,6 +91,7 @@ button {
     color: white;
 }
 
+/*  Hover Effects */
 #gender:hover {
     border-color: #23d5ab;
 }
@@ -94,6 +105,8 @@ button:hover {
 .sub-heading {
     margin: 0%;
 }
+
+/*  Table Styling */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -104,6 +117,7 @@ th, td {
     border: 1px solid #ddd;
     text-align: left;
 }
+/*  Action Buttons */
 .actions button {
     margin: 5px;
     padding: 5px;

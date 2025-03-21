@@ -7,20 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <h1>STUDENT REGISTRATION FORM</h1>
         <P>Form for students registration to collect and manage their data</P>
     </header>
 
+    <!-- Registration form Section -->
     <section id="registration-form">
-        
         <form id="student-form">
             <h2 class="form-heading">Register Here</h2>
+
+            <!-- Name Input Fields -->
             <h4 class="sub-heading">Name:</h4>
             <div class="form-group-inline">
                 <input type="text" id="first-name" placeholder="First Name" required>
                 <input type="text" id="last-name" placeholder="Last Name" required>
             </div>
+
+            <!-- Gender Selection -->
             <h4 class="sub-heading">Gender:</h4>
             <div class="form-group">
                 <select id="gender" required>
@@ -30,18 +35,28 @@
                     <option value="Other">Other</option>
                 </select>
             </div>
+            <!-- Student ID Input -->
             <h4 class="sub-heading">Student ID:</h4>
             <div class="form-group">
             <input id="student-id" type="number" placeholder="Student ID" required>
+            </div>
+             <!-- Email Input -->
             <h4 class="sub-heading">Email:</h4>
+            <div class="form-group">
             <input id="email-id" type="email" placeholder="Email ID" required>
+            </div>
+            <!-- Contact Number Input -->
             <h4 class="sub-heading">Contact:</h4>
+            <div class="form-group">
             <input id="contact" type="number" placeholder="Contact Number" required>
+            </div>
+            <!-- Submit Button -->
             <button class="add-button" type="submit">Add Details</button>
             </div> 
         </form>
     </section>
 
+    <!-- Registered Students Display Section -->
     <section id="student-list">
         <h2 class="semi-heading">Registered Students :-</h2>
         <table>
@@ -56,10 +71,12 @@
                 </tr>
             </thead>
             <tbody id="students-table">
+                <!-- Student records will be added dynamically here -->
             </tbody>
         </table>
     </section>
-<script src="function.js"></script>
+    <!-- Linking JavaScript File -->
+    <script src="function.js"></script>
 </body>
 </html>
 
